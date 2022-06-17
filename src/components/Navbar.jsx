@@ -24,12 +24,12 @@ export const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed top-0 left-0 bg-[#000300]  w-[60%] h-full border-r border-r-gray-900 ease-in-out duration-500"
+              ? "fixed top-0 left-0 bg-[#1C6DE8]  w-[60%] h-full border-r border-r-gray-900 ease-in-out duration-500"
               : "fixed left-[-100%]"
           }
         >
-          <h1 className="w-full font-bold text-3xl m-4 text-[#00df9a]">
-            ALEX ADAM.
+          <h1 className="w-full font-bold text-3xl m-4 text-white">
+            Bankfully.
           </h1>
 
           <ul className=" md:hidden p-4 uppercase">
@@ -37,7 +37,7 @@ export const Navbar = () => {
             <li className="p-4 border-b border-gray-600">Company</li>
             <li className="p-4 border-b border-gray-600">Resources</li>
 
-            <button className="bg-[#ffffff] hover:bg-[#00df9a] text-black mt-7 ml-2 rounded-md font-medium w-[180px]  mx-auto my-2 px-4 py-3">
+            <button className="bg-[#ffffff]  text-black mt-7 ml-2 rounded-md font-medium w-[180px]  mx-auto my-2 px-4 py-3">
               Contact
             </button>
           </ul>
