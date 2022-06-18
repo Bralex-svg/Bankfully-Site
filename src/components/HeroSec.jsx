@@ -19,7 +19,7 @@ function HeroSec() {
               />{" "}
               with Bankfully
             </h1>
-            <p className="p-3 text-xs ml-2 lg:text-sm lg:ml-[1%] mx-auto w-[80%] lg:w-[55%]">
+            <p className="p-3 text-sm ml-2 lg:text-xl lg:ml-[1%] mx-auto w-[80%] lg:w-[70%]">
               Bankfully gives you an awesome experience to send and receive
               money with ease
             </p>
