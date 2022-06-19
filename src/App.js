@@ -1,7 +1,9 @@
 import "./App.css";
 import Banner from "./components/Banner";
 import HeroSec from "./components/HeroSec";
+import HowTo from "./components/HowTo";
 import { Navbar } from "./components/Navbar";
+import Partners from "./components/Partners";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Banner />
       <Navbar />
       <HeroSec />
+      <Partners />
+      <HowTo />
     </div>
   );
 }

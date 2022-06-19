@@ -3,6 +3,8 @@ import Mock from "../assets/Mockups.png";
 import QRCODE from "../assets/QR Code.png";
 import PlayStore from "../assets/Mobile app badges.png";
 import Typed from "react-typed";
+import Icon from "../assets/Pattern icon.png";
+
 function HeroSec() {
   return (
     <>
@@ -19,7 +21,7 @@ function HeroSec() {
               />{" "}
               with Bankfully
             </h1>
-            <p className="p-3 text-sm ml-2 lg:text-xl lg:ml-[1%] mx-auto w-[80%] lg:w-[70%]">
+            <p className="p-3 text-sm ml-2 lg:text-xl lg:ml-[1%] mx-auto w-[90%] lg:w-[70%]">
               Bankfully gives you an awesome experience to send and receive
               money with ease
             </p>
@@ -40,6 +42,11 @@ function HeroSec() {
               alt="phone"
             />
           </div>
+          <img
+            className="lg:ml-[30%] lg:w-[8%] w-[12%] ml-[20%] lg:ml-[60%]  "
+            src={Icon}
+            alt="icon"
+          />
         </div>
       </div>
     </>
