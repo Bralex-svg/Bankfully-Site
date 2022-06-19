@@ -4,7 +4,7 @@ import Icon from "../assets/Pattern icon.png";
 const Partners = () => {
   return (
     <div className=" lg:mt-[1%]   mt-[40%]">
-      <h1 className=" lg:text-5xl lg:ml-[30%] text-xl font-bold text-gray-800 ml-[10%]">
+      <h1 className=" lg:text-5xl lg:ml-[25%] text-xl font-bold text-gray-800 ml-[10%]">
         Our trusted payment partners
       </h1>
       <img
