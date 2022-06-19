@@ -10,7 +10,7 @@ const Download = () => {
         <div className=" mx-auto rounded-[20px] lg:rounded-[60px] w-[90%] h-[100vh] lg:w-[80%] lg:h-[50vh] bg-gradient-to-b from-[#1C6DE8] to-[#091e39]"></div>
         <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
           <div className="flex -mt-[200%] lg:-mt-[45%] text-white flex-col justify-center md:items-start w-full px-2 py-8">
-            <h1 className=" text-3xl mt-[4%] lg:-mt-[5%] lg:ml-[20%] lg:w-[90%] ml-[20%] w-[80%] lg:text-3xl font-bold">
+            <h1 className=" text-3xl -mt-[15%] lg:-mt-[5%] lg:ml-[20%] lg:w-[90%] ml-[20%] w-[80%] lg:text-3xl font-bold">
               Download the Bankfully App today!
             </h1>
             <p className="p-3 text-sm ml-2 lg:text-xl lg:ml-[18%] mx-auto w-[90%] lg:w-[70%]">
@@ -23,7 +23,7 @@ const Download = () => {
               alt="code"
             />
             <img
-              className="lg:block w-[12%] lg:-translate-y-[960%] lg:w-[8%] lg:ml-[50%] -translate-y-[850%] ml-[40%]  "
+              className="lg:block w-[12%] lg:-translate-y-[960%] lg:w-[8%] lg:ml-[50%] -translate-y-[830%] ml-[40%]  "
               src={Icon}
               alt="icon"
             />
