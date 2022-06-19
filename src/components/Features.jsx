@@ -26,10 +26,10 @@ const Features = () => {
             src={BigLogo}
             alt="icon"
           />
-          <h1 className="lg:ml-[35%] text-xl ml-[15%] lg:w-[40%] font-bold lg:text-4xl py-7">
+          <h1 className="lg:ml-[35%] text-xl ml-[15%]  font-bold lg:text-4xl py-7">
             A smart, simple and secure
           </h1>
-          <h1 className="lg:ml-[30%] text-xl ml-[15%] w-[80%] -translate-y-[50%]  lg:-translate-y-[40%] lg:w-[40%] font-bold lg:text-4xl py-7">
+          <h1 className="lg:ml-[30%] text-xl ml-[15%] -translate-y-[50%]  lg:-translate-y-[40%]  font-bold lg:text-4xl py-7">
             banking experience with Bankfully
           </h1>
         </div>
